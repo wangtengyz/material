@@ -1,0 +1,24 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "A Cli-demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "effect": "//告诉package.json,我的bin操作叫demo-cli,它可执行的文件路径是bin/demo-cli.js",
+  "bin": {
+    "material": "./index.js",
+    "commander-cli": "./bin/commander-cli.js",
+    "demo-cli": "./bin/demo-cli.js"
+  },
+  "author": "wangteng",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^7.1.0",
+    "inquirer": "^8.0.0"
+  }
+}
